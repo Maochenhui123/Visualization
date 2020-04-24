@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Visualization</title>
+    <link rel="stylesheet" href="hui/css/hui.min.css">
+    <link rel="stylesheet" href="hui/fonts/iconfont.min.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="hui/css/animate.min.css">
+    <link rel="stylesheet" href="hui/css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header class="navbar-wrapper cl">
+        <div class="navbar">
+            <div class="container cl">
+                <a class="logo navbar-logo f-l mr-10" href="index.html">
+                    <img src="img/logo.jpg" alt="">
+                </a>
+                <a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
+                <nav class="nav navbar-nav nav-collapse f-r" role="navigation" id="Hui-navbar">
+                    <ul class="cl">
+                        <li class="current">
+                            <a href="index.html">Home</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="navbar-userbar hidden-xs">
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="vr_news">
+        <div class="vr_title wow bounceInDown">
+            <h2>Visualization</h2>
+            <p>
+                <span>Look at data from a new perspective</span>
+            </p>
+        </div>
+        <div class="vr_news_tab">
+            <button class="active wow bounceInRight" type="button">visualization</button>
+        </div>
+        <div class="container vr_news_content">
+            <div class="row cl">
+                <div class="col-xs-12 col-sm-6 wow bounceInLeft">
+                    <dl class="vr_news_list">
+                        <dt class="cl">
+                            <div class="vr_news_img l">
+                                <img src="img/Visual.png" alt="">
+                            </div>
+                            <div class="vr_news_text r">
+                                <h2>TIME SERIES VISUALIZATION</h2>
+                                <p>Provide multiple way to visualize data, including....</p>
+                            </div>
+                        </dt>
+                        <dd>
+                            <a href="#">Ring association chart</a>
+                        </dd>
+                        <dd>
+                            <a href="#">Line chart</a>
+                        </dd>
+                        <dd>
+                            <a href="#">parallel coordinate</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="col-xs-12 col-sm-6 wow bounceInRight">
+                    <div class="vr_news_mask">
+                        <img src="img/result.png" alt="">
+                        <p>Example, Ring association chart</p>
+                    </div>
+                </div>
+                <p class="text-c"><a class="btn btn_more wow bounceInUp" href="GeneralSelection.jsp">MORE&emsp;→</a></p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="vr_case vr_case_app">
+        <div class="vr_title vr_title_white wow bounceInDown">
+            <h2>Sample case (Weather data)</h2>
+            <p>
+                <span>CASE APPRECIATION</span>
+            </p>
+        </div>
+        <div class="swiper-container vr_case_slide wow bounceInUp">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/Map.png" alt="">
+                    <div class="slide_text">
+                        <p>[Select your region]</p>
+                        <a href="map.html">More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/Selection.png" alt="">
+                    <div class="slide_text">
+                        <p>[Select your feature]</p>
+                        <a href="map.html">More</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/ring_association_chart.png" alt="">
+                    <div class="slide_text">
+                        <p>[See your result]</p>
+                        <a href="map.html">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev vr_case_prev">
+                <i class="vrfont vr-fanhui"></i>
+            </div>
+            <div class="swiper-button-next vr_case_next">
+                <i class="vrfont vr-gengduo1"></i>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer">
+            <div class="footer_list cl wow bounceInUp">
+                <a href="#">Home</a>
+                <a href="#">Service</a>
+                <a href="#">Sample case</a>
+                <a href="#">Contact us</a>
+                <div class="r">
+                    <a href="#"><i class="vrfont vr-sina"></i></a>
+                    <a href="#"><i class="vrfont vr-qq"></i></a>
+                    <a href="#"><i class="vrfont vr-weixin"></i></a>
+                </div>
+            </div>
+            <div class="container wow bounceInUp">
+                <div class="row cl footer_text">
+                    <div class="col-sm-4 col-xs-12">
+                        <p>BJTU&LU</p>
+                        <p><span>Phone#：000-666666</span></p>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <p>Location</p>
+                        <p><span>BEIJING JIAOTONG UNIVERSITY</span></p>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 cl">
+                        <img class="r" src="img/ewm.jpg" alt="">
+                        <span class="r">Follow us</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright wow bounceInUp">
+            <div class="container">CopyRight© BJTU&LU All Rights Reserved</div>
+        </div>
+    </footer>
+
+    <script src="hui/js/jquery-1.11.3.min.js"></script>
+    <script src="hui/js/swiper.min.js"></script>
+    <script src="hui/js/wow.min.js"></script>
+    <script src="js/slide.js"></script>
+    <script src="js/main.js"></script>
+    <script>new WOW().init();</script>
+</body>
+
+</html>

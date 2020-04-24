@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+.l-page{
+    position:relative;
+    z-index:10;
+    overflow:hidden;
+    padding-top:128px;
+}
+.l-header{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index:11;
+    background:#000
+}
+
+.l-header .header-top{
+    height:84px;
+    padding:0 20px 24px;
+    background:url("../img/header-bg.gif") repeat-x 0 100%
+}
+
+.l-header .kawasaki-logo{
+    float:left;
+    padding-top:20px;
+}
+
+.p-500 {
+    background: url(../img/bkg-errorpage-ad.jpg) 100%;
+}
+.p-error {
+    height: calc(100vh - 84px);
+    background-size: cover;
+    margin-top: -50px;
+    margin-right: -50px;
+}
+.l-main{
+    position:relative;
+    z-index:9
+}
+
+.p-error .error-block {
+    position: relative;
+    background-color: white;
+    padding-top: 4.375rem;
+    padding-bottom: 2.1rem;
+    width: 80%;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.p-error .error-block:after {
+    height: 100%;
+    width: 100%;
+    width: 100;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: box-shadow 250ms ease-in-out;
+    -moz-transition: box-shadow 250ms ease-in-out;
+    transition: box-shadow 250ms ease-in-out;
+    content: "";
+    box-shadow: 0 14px 24px rgba(0,0,0,0.25);
+    display: block;
+    z-index: -1;
+}
+.p-error .text-center {
+    font-family: "delta_pro", sans-serif;
+    text-align: center;
+}
+p {
+    line-height: 1.7;
+}
+.p-error big {
+    font-size: 6.25rem;
+    line-height: 1;
+    margin-bottom: 4.375rem;
+}
+.p-error strong, .p-error big {
+    display: block;
+}
